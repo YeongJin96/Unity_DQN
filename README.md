@@ -29,7 +29,9 @@ Knights-Adventure는 몬스터나 장애물을 피해가며 목표지점에 도�
 1. 움직이는 몬스터
 
 2. 고정형 장애물(닿이면 체력 소모)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/90f9e000-4d93-4a52-92f4-8f2b0d3ca13d">
+</p>
    ![Enermies](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Enermies.png)
 
 #### 수집형 오브젝트(Collectibles)
