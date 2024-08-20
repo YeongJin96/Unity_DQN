@@ -32,31 +32,33 @@ Knights-Adventure는 몬스터나 장애물을 피해가며 목표지점에 도�
 <p align="center">
   <img src="https://github.com/user-attachments/assets/90f9e000-4d93-4a52-92f4-8f2b0d3ca13d">
 </p>
-   ![Enermies](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Enermies.png)
 
 #### 수집형 오브젝트(Collectibles)
 
  1. 코인
 
  2. 체력 포션
-
-    ![Collectibles](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Collectibles.png)
+ <p align="center">
+   <img src="https://github.com/user-attachments/assets/3649f8fe-c612-4ea4-8ddc-c34992faa4c6">
+ </p>
 
 
 
 #### 장애물(Obstacles)
 
 장애물은 플레이어의 체력을 소모시키지 않지만, 진로를 방해합니다.
-
-![Obstacles](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Obstacles.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7599f3f9-8076-41a6-ba8e-f444cc369b2b">
+</p>
 
 
 
 #### 목표 지점(Goal)
 
 다음 Stage로 넘어가는 포탈이지만, 학습할때 목표지점(Goal)로 사용했습니다.
-
-![Portal](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Portal.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e16490b-b9ee-4057-97c0-988073ee177d">
+</p>
 
 ---
 
@@ -106,8 +108,9 @@ public override void OnEpisodeBegin()
    2. 몬스터를 탐지하는 Ray
    3. Player에게 피해를 입힐 수 있는 고정형 Enemy를 탐지하는 Ray
    4. Player가 낙사할때 충돌하는 Object를 탐지하는 Ray
-
-   ![Ground+Enemy_Ray](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Ground+Enemy_Ray.png)
+   <p align="center">
+     <img src="https://github.com/user-attachments/assets/321dac7e-ba77-4dc5-acb8-e84c96275414">
+   </p>
 
 3. OnActionReceived()
 
@@ -267,8 +270,9 @@ eplsilon_delta = (epsilon_init - epsilon_min)/explore_step if train_mode else 0.
 
 
 state_size는 학습을 위해 유니티 스크립트에서 지정한 Observation Vector와, Ray sensor의 Vector입니다.
-
-![term_obs](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\term_obs.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/901e3fd5-999f-44bf-b594-2b426fd2844a">
+</p>
 
 (4개의 벡터와 유니티 스크립트에서 지정했던 Observation Vector)
 
@@ -496,8 +500,9 @@ if __name__ == '__main__':
 
 
 #### 학습 결과
-
-![Score_graph](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Knight-adventure-Score.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/460364ed-39d7-45f5-9f16-97c1c06a8b80">
+</p>
 
 [유튜브Link](https://www.youtube.com/watch?v=Up7Cn4rauiQ)
 
@@ -511,7 +516,8 @@ if __name__ == '__main__':
 2. Coin을 획득할 시 +1 -> -1
 
 ※ Coin을 최대한 피하며, Monster를 처치하도록 유도
-
-![Score2](C:\Users\dydyz\OneDrive\바탕 화면\GitHub_blog\YeongJin96.github.io\assets\img\Knight-adventure2-Score.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1bef8df-e08f-4401-98a4-59eab4329150">
+</p>
 
 [유튜브Link](https://youtu.be/QLL2W_ohny0)
