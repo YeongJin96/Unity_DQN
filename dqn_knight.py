@@ -11,7 +11,7 @@ import random
 import copy
 import numpy as np
 
-env_name = r"C:\Users\dydyz\Jupyter_Project\RL_Unity\new_env\KnightsAdventure"
+env_name = f"./new_env\KnightsAdventure" #유니티 환경 경로
 
 action_size = 3
 print("action_size: ", action_size)
@@ -40,8 +40,8 @@ epsilon_min = 0.1
 explore_step = run_step * 0.9
 eplsilon_delta = (epsilon_init - epsilon_min)/explore_step if train_mode else 0.
 
-save_path = f"./saved_models/models/DQN"
-load_path = f"./saved_models/DQN/11-29_2"
+save_path = f"./saved_models/models/DQN" #모델을 저장할 폴더
+load_path = f"./saved_models/DQN/11-29_2" #저장된 모델 위치
 
 class DQN(torch.nn.Module):
     def __init__(self, **kwargs):
