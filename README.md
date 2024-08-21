@@ -1,4 +1,5 @@
 # Unity_DQN
+타 유저가 만든 Knights-Adventure라는 게임에 유니티 ML-Agents를 활용해 DQN으로 에이전트를 학습하고 스스로 게임을 클리어합니다.
 
 강화학습을 적용시켜볼 게임은 Knights-Adventure라는 게임입니다.
 
